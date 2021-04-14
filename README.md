@@ -1,21 +1,18 @@
 # flutter_dlna
 
 一款真正可以实现视频投屏的插件，基于DLNA。
-
+增加dio>4.0支持。
 ## Getting Started
 
 pubspec.yaml中引入依赖：
 
 ```
 dependencies:
-  flutter_dlna: <最新版本>
+    flutter_dlna:
+    git:
+      url: https://github.com/SinoMiles/flutter_dlna.git 
 ```
 
-最新版本查看地址：
-
-```
-https://pub.dev/packages/flutter_dlna/install
-```
 
 创建管理器
 
